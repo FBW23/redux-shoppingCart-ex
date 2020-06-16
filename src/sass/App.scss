@@ -1,0 +1,26 @@
+* {
+  font-family: monospace;
+}
+
+.app {
+  display: flex;
+  .products {
+    width: 400px;
+    .product {
+      background: rgb(89, 105, 156);
+      margin: 10px;
+      color: white;
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 10px;
+    }
+  }
+  .cart {
+    color: white;
+    padding: 10px;
+    flex-grow: 1;
+    border-radius: 10px;
+    margin: 10px;
+    background: rgb(36, 43, 59);
+  }
+}
